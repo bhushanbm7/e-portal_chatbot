@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "https://esm.run/@google/genai";
 
 const ai = new GoogleGenAI({
-    apiKey: "AIzaSyCUVjkmRwO1xYqvTxRS7PQVDE2e9aJhmCY"   // 🔑 add your key here
+    apiKey: ""   // 🔑 add your key here
 });
 
 const chatBox = document.getElementById("chat-box");
@@ -52,3 +52,4 @@ User Query: ${query}
         addMessage("Error fetching response. Please try again.", "bot");
     }
 };
+
